@@ -2,5 +2,6 @@
 
 require_relative "config/environment"
 
+use PagesController
 run Rails.application
 Rails.application.load_server
